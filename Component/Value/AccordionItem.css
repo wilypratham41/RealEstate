@@ -1,0 +1,56 @@
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+  transition: background 0.3s ease-in-out;
+}
+
+.accordion-header:hover {
+  background-color: #e0e0e0;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.accordion-detail {
+  padding: 10px 15px;
+  background-color: white;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.toggle-icon {
+  font-size: 16px;
+}
+
+/* Smooth Fade In Effect */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

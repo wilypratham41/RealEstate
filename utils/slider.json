@@ -1,0 +1,87 @@
+[
+    {
+      "name": "Aliva Priva Jardin",
+      "price": "47,043",
+      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+      "image": "./r1.png",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2500,
+      "yearBuilt": 2010,
+      "address": "789 Pine Lane, Aspen, CO",
+      "neighborhood": "Aspen Highlands",
+      "nearbySchools": ["Aspen Elementary", "Mountain High School"],
+      "amenities": ["Fireplace", "Hot Tub", "Hiking Trails"]
+    },
+    {
+      "name": "Asatti Garden City",
+      "price": "66,353",
+      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+      "image": "./r2.png",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "squareFootage": 2000,
+      "yearBuilt": 2015,
+      "address": "123 Maple Street, Springfield, IL",
+      "neighborhood": "Greenwood Heights",
+      "nearbySchools": ["Greenwood Elementary", "Springfield High School"],
+      "amenities": ["Swimming Pool", "Garden", "2-Car Garage"]
+    },
+    {
+      "name": "Citralan Puri Serang",
+      "price": "35,853",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./r3.png",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "squareFootage": 2000,
+      "yearBuilt": 2015,
+      "address": "123 Maple Street, Springfield, IL",
+      "neighborhood": "Greenwood Heights",
+      "nearbySchools": ["Greenwood Elementary", "Springfield High School"],
+      "amenities": ["Swimming Pool", "Garden", "2-Car Garage"]
+    },
+    {
+      "name": "Aliva Priva Jardin",
+      "price": "47,043",
+      "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+      "image": "./r1.png",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1500,
+      "yearBuilt": 2018,
+      "address": "456 Beach Road, Miami, FL",
+      "neighborhood": "Oceanfront",
+      "nearbySchools": ["Miami Elementary", "Sunset High School"],
+      "amenities": ["Gym", "Balcony", "Parking"]
+    },
+    {
+      "name": "Asatti Garden City",
+      "price": "66,353",
+      "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+      "image": "./r2.png",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1500,
+      "yearBuilt": 2018,
+      "address": "456 Beach Road, Miami, FL",
+      "neighborhood": "Oceanfront",
+      "nearbySchools": ["Miami Elementary", "Sunset High School"],
+      "amenities": ["Gym", "Balcony", "Parking"]
+    },
+    {
+      "name": "Citralan Puri Serang",
+      "price": "35,853",
+      "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+      "image": "./r3.png",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "squareFootage": 2500,
+      "yearBuilt": 2010,
+      "address": "789 Pine Lane, Aspen, CO",
+      "neighborhood": "Aspen Highlands",
+      "nearbySchools": ["Aspen Elementary", "Mountain High School"],
+      "amenities": ["Fireplace", "Hot Tub", "Hiking Trails"]
+    }
+  ]
+  

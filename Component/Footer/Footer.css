@@ -1,0 +1,41 @@
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.f-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns text and logo properly */
+    gap: 0.5rem; /* Adds space between items */
+}
+
+.f-left img {
+    margin-left: -120px; /* Adjust this if needed */
+}
+
+.f-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.f-menu {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.f-menu span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.f-menu span:hover {
+    color: var(--blue);
+}

@@ -1,0 +1,178 @@
+.c-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.c-container > div {
+    flex: 1;
+}
+
+.c-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactModes {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contactModes .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mode .button {
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.mode .button:hover {
+    background: var(--blue);
+    color: white;
+}
+
+.flexStart {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lightBlue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail span:first-child {
+    font-weight: bold;
+}
+
+.detail span:last-child {
+    font-size: 0.9rem;
+    color: gray;
+}
+.mode>:nth-child(1){
+    width: 100%;
+    gap: 1.6rem;
+
+}
+.mode .detail .primaryText{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.mode:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.mode .button:hover{
+    background:var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .chat-modal {
+    width: 350px;
+  }
+  
+  .chat-box {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message {
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .chat-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .chat-input button {
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .accept-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

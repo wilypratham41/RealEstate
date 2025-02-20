@@ -1,0 +1,153 @@
+/* Residencies.css */
+.r-wrapper {
+    overflow: hidden; /* Ensure content doesn't spill outside */
+  }
+  
+  .r-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    gap: 2rem; /* Spacing between header and carousel */
+  }
+  
+  .r-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+  }
+  
+  .r-content {
+    display: flex;
+    width: 100%; /* Make carousel take full width */
+    justify-content: center; /* Center the card */
+  }
+  
+  .r-card {
+    width: 300px; /* Adjust card width as needed */
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflowing image corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    position: relative; /* For positioning price and name */
+  }
+  
+  .r-card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Prevent small space below image */
+  }
+  
+  .r-price {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .r-card .primaryText { /* Style for name */
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .r-card .secondaryText { /* Style for details */
+    padding: 0 10px 10px; /* Add bottom padding */
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .r-buttons {
+    display: flex;
+    gap: 1rem; /* Space between buttons */
+  }
+  
+  .r-buttons button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff; /* Example button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .r-buttons button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  /* Residencies.css */
+/* ... (rest of your CSS remains the same) */
+
+.r-header-buttons { /* New class for the container */
+    display: flex;
+    justify-content: space-between; /* Header on left, buttons on right */
+    align-items: center; /* Vertically align header and buttons */
+    width: 100%; /* Take full width */
+    margin-bottom: 20px; /* Space below the container */
+  }
+  
+  /* You can remove the inline styles from the r-buttons and r-head in the JSX now */
+  .r-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .r-buttons button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .r-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .orangeText {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .primaryText {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .modal-close-btn {
+    display: block;
+    margin: 20px auto 0; /* Centers the button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-close-btn:hover {
+    background-color: #0056b3;
+}
